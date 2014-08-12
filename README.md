@@ -10,16 +10,16 @@ Liftkit is dependant upon [thor](thor)
 
 ## Usage
 
-* Application Initialization
-* Model Generation
+* [Application Initialization](app)
+* [Model Generation](model)
 
-### [Application Generation](app)
+### Application Generation
 
 In an existing struts application, you'll want to run ```liftkit init``` to initialize the application.  This will create a scripts folder and scripts/templates folder with the liftkit executable and default templates.
 
 The default templates can be editted to suit your environment or needs.
 
-### [Model Generation](model)
+### Model Generation
 
 To generate a new serializable model with liftkit, simply give a model name and properties with type to model.
 
@@ -36,5 +36,5 @@ The default template is named model.erb.java and will be generated into JAVA/src
 5. Create a new Pull Request
 
 [thor]: http://whatisthor.com
-[app]: #app
-[model]: #model
+[app]: #application-generation
+[model]: #model-generation
