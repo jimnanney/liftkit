@@ -10,10 +10,10 @@ Liftkit is dependant upon [thor](thor)
 
 ## Usage
 
-* [Application Initialization](app)
-* [Model Generation](model)
+* [Application Initialization](#application-initialization)
+* [Model Generation](#model-generation)
 
-### Application Generation
+### Application Initialization
 
 In an existing struts application, you'll want to run ```liftkit init``` to initialize the application.  This will create a scripts folder and scripts/templates folder with the liftkit executable and default templates.
 
@@ -36,5 +36,3 @@ The default template is named model.erb.java and will be generated into JAVA/src
 5. Create a new Pull Request
 
 [thor]: http://whatisthor.com
-[app]: #application-generation
-[model]: #model-generation
